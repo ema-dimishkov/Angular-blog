@@ -1,0 +1,22 @@
+/* @import '~@angular/material/prebuilt-themes/indigo-pink.css'; Importing Angular Material theme */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+    height: 100%;
+     min-height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  background: linear-gradient(135deg, #2f61a7, #382366);
+  background-attachment: fixed;
+}

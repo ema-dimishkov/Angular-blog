@@ -1,0 +1,32 @@
+<div class="max-w-full mx-auto bg-gray-900 overflow-hidden mt-0 p-6 banner">
+  <h1 class="text-5xl font-extrabold text-center text-white mb-4">WELCOME TO MY WEB APP</h1>
+
+  <p class="text-center font-bold text-xl text-white mb-6">
+    I am a full-stack developer passionate about solving problems and building high-end solutions.
+  </p>
+</div>
+
+
+<div class="flex flex-col items-center mb-12 mt-20">
+  <h2 class="text-xl font-bold mb-4 text-center featured-title">Featured Projects</h2>
+
+  <div class="card-container">
+    <div class="example-card" *ngFor="let item of featuredBlogs; let i = index">
+      <mat-card appearance="outlined">
+        <mat-card-header>
+          <div mat-card-avatar class="example-header-image"></div>
+          <mat-card-title>{{ item.title }}</mat-card-title>
+        </mat-card-header>
+        <img mat-card-image [src]="item.image" alt="{{ item.title }} image" class="card-image">
+        <mat-card-content>
+          <p>{{ item.description }}</p>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-raised-button color="warn" class="mt-2" [routerLink]="['/blog', item.id]">
+            View
+          </button>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+  </div>
+</div>

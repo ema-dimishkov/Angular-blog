@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "Project 1",
+    "description": "Machine learning project",
+    "content": "Check out my recent ML project!",
+    "image": "ML1.jpg",
+    "isFeatured": true,
+    "categoryId": "project1"
+  },
+  {
+    "id": 2,
+    "title": "Project 2",
+    "description": "@FEEIT lab exercises",
+    "content": "Check out my lab exercises!",
+    "image": "feitlab.jpg",
+    "isFeatured": true,
+    "categoryId": "project2"
+  },
+  {
+    "id": 3,
+    "title": "Project 3",
+    "description": "Simple Weather App",
+    "content": "Test the Weather today!",
+    "image": "weatherapp.jpg",
+    "isFeatured": true,
+    "categoryId": "project3"
+  }
+]
